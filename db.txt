@@ -1,0 +1,1 @@
+ create table transaction(accountno varchar2(20) references register(accountno),toaccountno varchar2(20),transaction date);
